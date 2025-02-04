@@ -1,0 +1,53 @@
+/* Estilos generales */
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+}
+
+/* Título */
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Grid de personajes */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Tarjeta de personaje */
+.card {
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  background-color: #444;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Imagen */
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Rotación al hacer clic */
+.card img.rotated {
+  transform: rotate(180deg);
+}
+
+/* Nombre del personaje */
+.name {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
