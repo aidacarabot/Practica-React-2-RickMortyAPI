@@ -13,7 +13,7 @@ This is a **React.js** project that fetches data from the [Rick and Morty API](h
 
 ## 📌 Features
 
-✅ Fetches characters from the Rick and Morty API.
-✅ Displays each character with an image and name.
-✅ Clicking on an image rotates it 180°.
-✅ Responsive design with CSS.
+- ✅ Fetches characters from the Rick and Morty API.
+- ✅ Displays each character with an image and name.
+- ✅ Clicking on an image rotates it 180°.
+- ✅ Responsive design with CSS.
